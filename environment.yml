@@ -40,7 +40,7 @@ dependencies:
       - cramjam==2.11.0
       - cycler==0.12.1
       - demandlib==0.1.9
-      - epw==0.0.0
+      # - epw==0.0.0
       # Why is epw==0.0.0? Take out?
       - fastparquet==2024.11.0
       - fiona==1.9.5
