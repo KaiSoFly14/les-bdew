@@ -40,8 +40,8 @@ dependencies:
       - cramjam==2.11.0
       - cycler==0.12.1
       - demandlib==0.1.9
-      # - epw==0.0.0
-      # Why is epw==0.0.0? Take out?
+      - epw==1.2.dev2
+      # changed epw to 1.2.dev2 as 0.0.0 wouldn't import a valid version
       - fastparquet==2024.11.0
       - fiona==1.9.5
       - fonttools==4.60.1
@@ -68,7 +68,8 @@ dependencies:
       - pyshp==2.3.1
       - python-dateutil==2.9.0.post0
       - pytz==2025.2
-      - rasterio==1.4.3
+      - rasterio==1.3.11
+      # changing rasterio to 1.3.11 because 1.4.3 needs numpy 1.24
       - requests==2.32.5
       - scikit-learn==1.2.2
       - scipy==1.13.1
@@ -80,4 +81,4 @@ dependencies:
       - workalendar==17.0.0
       - xyzservices==2025.4.0
       - zipp==3.23.0
-prefix: C:\Users\ga87ces\.conda\envs\bdewles
+#prefix: C:\Users\ga87ces\.conda\envs\bdewles
