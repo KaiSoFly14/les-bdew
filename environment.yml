@@ -24,6 +24,8 @@ dependencies:
   - wheel=0.45.1=pyhd8ed1ab_1
   - xz=5.8.1=h208afaa_2
   - xz-tools=5.8.1=h2466b09_2
+  - git
+  # adding git to install epw from github
   - pip:
       - affine==2.4.0
       - attrs==25.3.0
@@ -40,8 +42,9 @@ dependencies:
       - cramjam==2.11.0
       - cycler==0.12.1
       - demandlib==0.1.9
-      - epw==1.2.dev2
-      # changed epw to 1.2.dev2 as 0.0.0 wouldn't import a valid version
+      - git+https://github.com/building-energy/epw.git@master
+      # - epw==1.2.dev2
+      # changed epw to link to specific library
       - fastparquet==2024.11.0
       - fiona==1.9.5
       - fonttools==4.60.1
